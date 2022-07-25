@@ -1,0 +1,65 @@
+.friendsListWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+.friendsListWrapper .heading {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+    background-color: #b8bec0;
+    margin: 0;
+    padding: 10px;
+}
+.friendsListWrapper input {
+    padding: 10px;
+    border: none;
+}
+.friendsListWrapper .listItems {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    border: 1px solid #777777;
+    padding: 0;
+    width: 100%;
+}
+.friendsListWrapper .listItems li {
+    padding: 5px 10px;
+    border-bottom: 1px solid #777777;
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-size: 14px;
+    color: #4a4a4a;
+}
+.friendsListWrapper .listItems li .isFriendText {
+    font-size: 12px;
+    color: #777777;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.friendsListWrapper .listItems li:last-child {
+    border-bottom: none;
+}
+.friendsListWrapper .listItems li p {
+    display: flex;
+    flex-direction: column;
+}
+.friendsListWrapper .listItems li .deleteIcon {
+    border: 1px solid #777777;
+    padding: 3px 8px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.friendsListWrapper .listItems li .favoriteStar {
+    border: 1px solid #777777;
+    padding: 3px 8px;
+    margin-left: auto;
+    display: block;
+    cursor: pointer;
+}
+.friendsListWrapper .listItems li .favorite {
+    color: #777777;
+}
